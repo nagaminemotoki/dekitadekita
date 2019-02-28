@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* リセットおまじない--------------------------------- */
+
+html {
+	overflow-y: scroll;
+}
+
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+
+body {
+	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
+}
+
+/* --------------------------------------------------- */
+
+/* ぜー */
+
+.e404_img {
+    width: 600px;
+    margin-top: 60px;
+}
+
+.e404_p {
+    font-size: 36px;
+}
+
+/* 共通のクラスの設定 */
+
+body {
+    background-color: rgb(255, 202, 103);
+}
+
+.container {
+    background-color: white;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    border: 0px;
+    margin: 40px 0px;
+}
+
+/* .btn:active {
+    border-bottom: solid 2px #fd9535;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+} */
+
+input {
+    font-size: 36px;
+    margin-top:20px; 
+}
+
+/* フォント追加しました */
+body {
+    font-family: arial unicode ms;
+}

@@ -1,0 +1,80 @@
+.kuma_relative {
+    position: relative;
+}
+
+.logo {
+    display: none;
+    width: 497px;
+    position: absolute;
+    right: 125px;
+    bottom: 191px;
+}
+
+.kuma {
+    width: 260px;
+    margin: 0 auto;
+    padding: 72px 30px;
+    /* padding: 55px 37px 27px 48px; */
+}
+
+.intro {
+    font-size: 30px;
+    width: 600px;
+    margin: 0 auto;
+    color: grey;
+    line-height: 50px;
+}
+
+.message {
+    font-size: 40px;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.regist {
+    padding-bottom: 50px;
+}
+
+/* 追加しました */
+.orange{
+    color: orange;
+}
+
+.profile-solid.icon {
+    color: orange;
+    position: absolute;
+    margin-left: 239px;
+    margin-top: 11px;
+    width: 14px;
+    height: 6px;
+    border-left: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    border-top: solid 1px currentColor;
+    border-bottom: solid 1px transparent;
+    background-color: currentColor;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .profile-solid.icon:before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: solid 1px currentColor;
+    background-color: currentColor;
+  }
+  

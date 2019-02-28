@@ -1,0 +1,90 @@
+header {
+    color: white;
+    background-color: orange;
+    height: 60px;
+}
+
+.header_hello {
+    float: left;
+    padding: 0px 30px;
+    line-height: 60px;
+}
+
+.header_menu {
+    float: right;
+    padding: 0px 30px;
+    line-height: 60px;
+}
+
+.dekita_main {
+    padding: 60px 0px;
+}
+
+.hanko_relative {
+    position: relative;
+}
+
+#dekita_hanko img {
+    position: absolute;
+    opacity: 0;
+}
+
+.dekita_group {
+    background-color: rgba(245, 204, 157, 0.98);
+    width: 80%;
+    margin: 2px auto;
+    padding: 0px 10px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.dekita_group a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.dekita_main .ymd {
+    margin: 2px auto;
+    width: 80%;
+    padding: 0px;
+    background-color: white;
+    text-align: left;
+}
+
+.dekita_time {
+    font-size: 10px;
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+}
+
+.dekita_circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: orange;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    color: white;
+    margin-right: 10px;
+}
+
+/* 追加しました 2文字以上入れないと薄いいろ*/
+
+#dekita_submit:disabled { 
+    background-color: #f7e5cf; 
+  }
+
+
+
+
+.back img{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 200px;
+    opacity: 1;
+}
